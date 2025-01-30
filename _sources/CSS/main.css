@@ -36,9 +36,14 @@ p {
     line-height: 1.5;
 }
 
+a .hover {
+    color: #2ec4b6;
+}
+
 a {
     color: #e71d36;
     text-decoration: none;
+    transition: color 300ms;
 }
 
 /* entête du site et menu*/
@@ -68,5 +73,4 @@ footer {
     margin-top: 50px;
     text-align: center;
     display:inline-block;
-
 }
